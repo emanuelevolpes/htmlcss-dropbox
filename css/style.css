@@ -8,3 +8,75 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+----------
+Common
+----------
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-spacebetween{
+    justify-content: space-between;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.position-fixed{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first-button{
+    background-color: #0061ff;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+/*
+----------
+Header
+----------
+*/
+
+.container-header.position-fixed{
+    height: 80px;
+    background-color: white;
+}
+
+header{
+    padding: 0 10px;
+    font-weight: lighter;
+}
+
+header ul{
+    height: 80px;
+    gap: 40px;
+}
+
+header a{
+    color: #1e1919;
+}
