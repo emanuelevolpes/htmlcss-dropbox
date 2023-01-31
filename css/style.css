@@ -79,6 +79,18 @@ a {
     max-width: 100%;
 }
 
+.padding {
+    padding: 30px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid lightgray;
+}
+
 /*
 ----------
 Header
@@ -139,4 +151,100 @@ Main
 .col-small div>.fa-solid.fa-arrow-down {
     margin-top: 80px;
     font-size: 50px;
+}
+
+#piano-business {
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+.container-piano-business>h2 {
+    margin-bottom: 70px;
+}
+
+.radio-button {
+    margin-bottom: 50px;
+}
+
+.radio-button span>.fa-solid {
+    color: #0061ff;
+    margin-right: 5px;
+}
+
+.radio-button span>.fa-regular {
+    color: gray;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.row-piano-business {
+    margin: 0 -25px;
+}
+
+.content {
+    margin: 0 25px;
+    min-height: 950px;
+    max-width: 300px;
+}
+
+.header-box {
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+
+.content h3 {
+    margin-top: 40px;
+    margin-bottom: 27px;
+}
+
+.content p {
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.content ul li {
+    margin-bottom: 25px;
+}
+
+.content .first-button {
+    margin-bottom: 35px;
+}
+
+.content hr {
+    width: 20%;
+    margin-top: 40px;
+    margin-bottom: 55px;
+    color: lightgray;
+}
+
+.content h4 {
+    margin-bottom: 38px;
+}
+
+.content .fa-solid {
+    margin-right: 5px;
+}
+
+.content .fa-solid.fa-check {
+    color: #0061ff;
+}
+
+.h-piano-business {
+    margin-bottom: 150px;
+}
+
+.h-piano-business .fa-solid {
+    margin-right: 5px;
+}
+
+.h-piano-business .col-big h3 {
+    margin-bottom: 25px;
+}
+
+.h-piano-business .col-big h4 {
+    margin-bottom: 60px;
+}
+
+.h-piano-business .col-small>button {
+    margin-left: 100px;
 }
