@@ -57,25 +57,25 @@ a {
     color: white;
 }
 
-.w-max-big{
+.w-max-big {
     max-width: 1180px;
     margin: 0 auto;
 }
 
-.w-max-small{
+.w-max-small {
     max-width: 1000px;
     margin: 0 auto;
 }
 
-.col-big{
+.col-big {
     width: 70%;
 }
 
-.col-small{
+.col-small {
     width: 30%;
 }
 
-.img-width{
+.img-width {
     max-width: 100%;
 }
 
@@ -110,33 +110,33 @@ Main
 ----------
 */
 
-#jumbotron{
+#jumbotron {
     background-color: #b4d0e7;
 }
 
-.container-jumbotron{
+.container-jumbotron {
     padding-top: 200px;
 }
 
-.container-jumbotron > h1{
+.container-jumbotron>h1 {
     font-size: 77px;
 }
 
-.row{
+.row {
     position: relative;
     bottom: -80px;
 }
 
 .col-small p,
-.col-small button{
+.col-small button {
     margin-bottom: 35px;
 }
 
-.col-small div > a{
+.col-small div>a {
     color: black;
 }
 
-.col-small div > .fa-solid.fa-arrow-down{
+.col-small div>.fa-solid.fa-arrow-down {
     margin-top: 80px;
     font-size: 50px;
 }
