@@ -3,7 +3,7 @@
 Reset
 ----------
 */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,45 +15,68 @@ Common
 ----------
 */
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.justify-content-spacebetween{
+.justify-content-spacebetween {
     justify-content: space-between;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.align-items-center{
+.align-items-center {
     align-items: center;
 }
 
-.position-fixed{
+.position-fixed {
     position: fixed;
     z-index: 1;
+    top: 0;
     width: 100%;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.first-button{
+.first-button {
     background-color: #0061ff;
     border: none;
     padding: 10px 15px;
     color: white;
+}
+
+.w-max-big{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.w-max-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col-big{
+    width: 70%;
+}
+
+.col-small{
+    width: 30%;
+}
+
+.img-width{
+    max-width: 100%;
 }
 
 /*
@@ -62,21 +85,58 @@ Header
 ----------
 */
 
-.container-header.position-fixed{
+.container-header.position-fixed {
     height: 80px;
     background-color: white;
 }
 
-header{
+header {
     padding: 0 10px;
     font-weight: lighter;
 }
 
-header ul{
+header ul {
     height: 80px;
     gap: 40px;
 }
 
-header a{
+header a {
     color: #1e1919;
+}
+
+/*
+----------
+Main
+----------
+*/
+
+#jumbotron{
+    background-color: #b4d0e7;
+}
+
+.container-jumbotron{
+    padding-top: 200px;
+}
+
+.container-jumbotron > h1{
+    font-size: 77px;
+}
+
+.row{
+    position: relative;
+    bottom: -80px;
+}
+
+.col-small p,
+.col-small button{
+    margin-bottom: 35px;
+}
+
+.col-small div > a{
+    color: black;
+}
+
+.col-small div > .fa-solid.fa-arrow-down{
+    margin-top: 80px;
+    font-size: 50px;
 }
