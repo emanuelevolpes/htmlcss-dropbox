@@ -387,3 +387,26 @@ Main
     padding: 15px 50px;
     font-size: 16px;
 }
+
+#faq{
+    margin-bottom: 150px;
+}
+
+.container-faq h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.content-faq div .faq1,
+.content-faq div .faq2{
+    border-bottom: 1px solid black;
+    padding: 45px 0;
+}
+
+.faq3{
+    padding: 45px 0;
+}
+
+.content-faq div i{
+    padding-left: 350px;
+}
