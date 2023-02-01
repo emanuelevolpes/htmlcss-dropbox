@@ -295,3 +295,76 @@ Main
 #team-dropbox-business{
     margin-bottom: 150px;
 }
+
+.box-partner,
+.box-partner-text{
+    width: calc(100% /3);
+    height: calc(100vw / 3);
+}
+
+.box-partner .designit,
+.box-partner .arizona,
+.box-partner .florida,
+.box-partner .topps,
+.box-partner .bicycle,
+.box-partner .hearst,
+.box-partner .lonely,
+.box-partner .clear{
+    width: 50%;
+    height: 50%;
+}
+
+.box-partner img{
+    width: 50%;
+    filter: invert(1);
+}
+
+.box-partner .designit{
+    background-color: #a2d39b;
+}
+
+.box-partner .arizona{
+    background-color: #61092b;
+}
+
+.box-partner .florida{
+    background-color: #0093ce;
+}
+
+.box-partner .topps{
+    background-color: #ff1c1c;
+}
+
+.box-partner-text{
+    background-color: #f5f5f5;
+}
+
+.box-partner .bicycle{
+    background-color: #d5001f;
+}
+
+.box-partner .hearst{
+    background-color: #b4d0e7;
+}
+
+.box-partner .lonely{
+    background-color: #0d2481;
+}
+
+.box-partner .clear{
+    background-color: #ffd830;
+}
+
+.box-partner-text .box-text-img{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.box-partner-text hr{
+    margin-bottom: 40px;
+    color: lightgray;
+}
+
+.box-partner-text p{
+    margin-bottom: 55px;
+}
