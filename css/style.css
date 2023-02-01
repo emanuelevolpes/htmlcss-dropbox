@@ -368,3 +368,22 @@ Main
 .box-partner-text p{
     margin-bottom: 55px;
 }
+
+#bottom-partner{
+    background-color: #b4d0e7;
+    margin-bottom: 160px;
+    padding: 135px 0;
+}
+
+.container-bottom-partner .col-big h2{
+    font-size: 32px;
+    color: #61082b;
+    padding-right: 250px;
+}
+
+.container-bottom-partner .col-small .button-bottom-partner{
+    background-color: white;
+    border: none;
+    padding: 15px 50px;
+    font-size: 16px;
+}
