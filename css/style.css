@@ -127,6 +127,15 @@ header ul {
     gap: 40px;
 }
 
+header ul li.line-height{
+    height: 80px;
+    line-height: 80px;
+}
+
+li.line-height:hover{
+    border-bottom: 2px solid #0061ff;
+}
+
 header a {
     color: #1e1919;
 }
