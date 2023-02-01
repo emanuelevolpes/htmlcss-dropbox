@@ -23,7 +23,7 @@ body {
     display: flex;
 }
 
-.f-wrap{
+.f-wrap {
     flex-wrap: wrap;
 }
 
@@ -61,7 +61,7 @@ a {
     color: white;
 }
 
-.second-button{
+.second-button {
     background-color: white;
     border: 1px solid black;
     padding: 10px 15px;
@@ -78,7 +78,7 @@ a {
     margin: 0 auto;
 }
 
-.w-30{
+.w-30 {
     width: 30%;
 }
 
@@ -258,46 +258,47 @@ Main
     margin-left: 100px;
 }
 
-#partner-dropbox h3{
+#partner-dropbox h3 {
     margin-bottom: 20px;
 }
 
-#partner-dropbox p{
+#partner-dropbox p {
     margin-bottom: 30px;
 }
-#partner-dropbox{
+
+#partner-dropbox {
     margin-bottom: 160px;
 }
 
-.container-dropbox-business p{
+.container-dropbox-business p {
     margin-top: 40px;
     margin-bottom: 80px;
 }
 
-.container-dropbox-business h2{
+.container-dropbox-business h2 {
     margin-bottom: 80px;
 }
 
-#dropbox-business{
+#dropbox-business {
     margin-bottom: 130px;
 }
 
-.box-team-dropbox-business h2{
+.box-team-dropbox-business h2 {
     font-size: 30px;
     padding-right: 500px;
     margin-bottom: 70px;
 }
 
-.box-team-dropbox-business a{
+.box-team-dropbox-business a {
     text-decoration: underline;
 }
 
-#team-dropbox-business{
+#team-dropbox-business {
     margin-bottom: 150px;
 }
 
 .box-partner,
-.box-partner-text{
+.box-partner-text {
     width: calc(100% /3);
     height: calc(100vw / 3);
 }
@@ -309,104 +310,141 @@ Main
 .box-partner .bicycle,
 .box-partner .hearst,
 .box-partner .lonely,
-.box-partner .clear{
+.box-partner .clear {
     width: 50%;
     height: 50%;
 }
 
-.box-partner img{
+.box-partner img {
     width: 50%;
     filter: invert(1);
 }
 
-.box-partner .designit{
+.box-partner .designit {
     background-color: #a2d39b;
 }
 
-.box-partner .arizona{
+.box-partner .arizona {
     background-color: #61092b;
 }
 
-.box-partner .florida{
+.box-partner .florida {
     background-color: #0093ce;
 }
 
-.box-partner .topps{
+.box-partner .topps {
     background-color: #ff1c1c;
 }
 
-.box-partner-text{
+.box-partner-text {
     background-color: #f5f5f5;
 }
 
-.box-partner .bicycle{
+.box-partner .bicycle {
     background-color: #d5001f;
 }
 
-.box-partner .hearst{
+.box-partner .hearst {
     background-color: #b4d0e7;
 }
 
-.box-partner .lonely{
+.box-partner .lonely {
     background-color: #0d2481;
 }
 
-.box-partner .clear{
+.box-partner .clear {
     background-color: #ffd830;
 }
 
-.box-partner-text .box-text-img{
+.box-partner-text .box-text-img {
     width: 50%;
     margin-bottom: 40px;
 }
 
-.box-partner-text hr{
+.box-partner-text hr {
     margin-bottom: 40px;
     color: lightgray;
 }
 
-.box-partner-text p{
+.box-partner-text p {
     margin-bottom: 55px;
 }
 
-#bottom-partner{
+#bottom-partner {
     background-color: #b4d0e7;
     margin-bottom: 160px;
     padding: 135px 0;
 }
 
-.container-bottom-partner .col-big h2{
+.container-bottom-partner .col-big h2 {
     font-size: 32px;
     color: #61082b;
     padding-right: 250px;
 }
 
-.container-bottom-partner .col-small .button-bottom-partner{
+.container-bottom-partner .col-small .button-bottom-partner {
     background-color: white;
     border: none;
     padding: 15px 50px;
     font-size: 16px;
 }
 
-#faq{
+#faq {
     margin-bottom: 150px;
 }
 
-.container-faq h2{
+.container-faq h2 {
     font-size: 30px;
     margin-bottom: 50px;
 }
 
 .content-faq div .faq1,
-.content-faq div .faq2{
+.content-faq div .faq2 {
     border-bottom: 1px solid black;
     padding: 45px 0;
 }
 
-.faq3{
+.faq3 {
     padding: 45px 0;
 }
 
-.content-faq div i{
+.content-faq div i {
     padding-left: 350px;
+}
+
+/*
+----------
+Footer
+----------
+*/
+
+footer {
+    background-color: black;
+}
+
+.row-footer {
+    padding: 105px 0;
+    color: white;
+}
+
+.list-footer h3 {
+    padding-bottom: 35px;
+}
+
+.list-footer li {
+    padding-bottom: 20px;
+}
+
+.list-footer hr {
+    margin: 120px 0 50px 0;
+    width: 70%;
+    height: 1px;
+}
+
+.language {
+    color: #999999;
+}
+
+.language .fa-solid {
+    margin: 0 5px 0 5px;
 }
