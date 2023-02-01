@@ -281,3 +281,17 @@ Main
 #dropbox-business{
     margin-bottom: 130px;
 }
+
+.box-team-dropbox-business h2{
+    font-size: 30px;
+    padding-right: 500px;
+    margin-bottom: 70px;
+}
+
+.box-team-dropbox-business a{
+    text-decoration: underline;
+}
+
+#team-dropbox-business{
+    margin-bottom: 150px;
+}
